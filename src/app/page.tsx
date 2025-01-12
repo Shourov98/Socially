@@ -1,5 +1,6 @@
 import CreatePost from '@/components/CreatePost';
 import { Button } from '@/components/ui/button';
+import YouMayKnow from '@/components/YouMayKnow';
 import { SignedIn, SignInButton, SignedOut, UserButton } from '@clerk/nextjs'
 import { currentUser } from '@clerk/nextjs/server';
 
@@ -13,7 +14,7 @@ export default async function Home() {
       </div>
 
       <div className="hidden lg:block lg:col-span-4 sticky top-20">
-        Who may follow
+        <YouMayKnow />
       </div>
     </div>
     
