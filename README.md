@@ -1,6 +1,7 @@
 # Socially
 
 This is a social network site. **Next.js** application with authentication, database integration, and image upload capabilities. This project leverages modern technologies and frameworks to provide a seamless development experience.
+[Socially](https://socially-flax.vercel.app/) Live site
 
 ## Features
 - **Authentication**: Powered by [Clerk](https://clerk.dev) for secure and easy user authentication.
