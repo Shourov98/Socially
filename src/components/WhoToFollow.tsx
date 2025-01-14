@@ -1,14 +1,13 @@
-import { getRandomUsers } from "@/actions/user.action"
+import { getRandomUsers } from "@/actions/user.action";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Link } from "lucide-react";
+import Link from "next/link";
 import { Avatar, AvatarImage } from "./ui/avatar";
 import FollowButton from "./FollowButton";
 
-async function YouMayKnow() {
-
+async function WhoToFollow() {
   const users = await getRandomUsers();
 
-  if(users?.length === 0) return null;
+  if (users.length === 0) return null;
 
   return (
     <Card>
@@ -17,7 +16,7 @@ async function YouMayKnow() {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {users?.map((user) => (
+          {users.map((user) => (
             <div key={user.id} className="flex gap-2 items-center justify-between ">
               <div className="flex items-center gap-1">
                 <Link href={`/profile/${user.username}`}>
@@ -39,7 +38,6 @@ async function YouMayKnow() {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }
-
-export default YouMayKnow
+export default WhoToFollow;
