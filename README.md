@@ -9,22 +9,6 @@ This is a social network site. **Next.js** application with authentication, data
 - **Modern UI**: Built with **Tailwind CSS** and **shadcn UI** for a responsive and customizable design.
 - **TypeScript**: Ensures type safety and better developer experience.
 
-## Technologies Used
-- **Next.js**: React-based framework for building server-side rendered and statically generated web applications.
-- **TypeScript**: A statically typed superset of JavaScript.
-- **Tailwind CSS**: Utility-first CSS framework for custom design.
-- **shadcn UI**: Pre-built components for modern UI development.
-- **Clerk**: Authentication solution for secure user management.
-- **Prisma**: Next-generation ORM for database access.
-- **UploadThings**: Simplified image upload handling.
-
-## Getting Started
-
-### Prerequisites
-Ensure you have the following installed on your system:
-- [Node.js](https://nodejs.org/) (version 16 or later recommended)
-- [Git](https://git-scm.com/)
-
 ### Installation
 
 Follow these steps to clone and run the project locally:
@@ -67,6 +51,22 @@ Follow these steps to clone and run the project locally:
    ```
 
    The application will be available at `http://localhost:3000`.
+
+## Technologies Used
+- **Next.js**: React-based framework for building server-side rendered and statically generated web applications.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **Tailwind CSS**: Utility-first CSS framework for custom design.
+- **shadcn UI**: Pre-built components for modern UI development.
+- **Clerk**: Authentication solution for secure user management.
+- **Prisma**: Next-generation ORM for database access.
+- **UploadThings**: Simplified image upload handling.
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (version 16 or later recommended)
+- [Git](https://git-scm.com/)
 
 ### Build for Production
 To create a production build:
