@@ -1,6 +1,6 @@
-# Project Name
+# Socially
 
-A **Next.js** application with authentication, database integration, and image upload capabilities. This project leverages modern technologies and frameworks to provide a seamless development experience.
+This is a social network site. **Next.js** application with authentication, database integration, and image upload capabilities. This project leverages modern technologies and frameworks to provide a seamless development experience.
 
 ## Features
 - **Authentication**: Powered by [Clerk](https://clerk.dev) for secure and easy user authentication.
@@ -31,8 +31,8 @@ Follow these steps to clone and run the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Shourov98/Socially.git
+   cd socially
    ```
 
 2. **Install Dependencies**:
